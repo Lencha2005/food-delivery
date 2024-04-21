@@ -1,0 +1,284 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+color: #2c2c2c;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+a {
+text-decoration: none;
+color: inherit;
+}
+
+h1, h2, h3, p {
+margin-top: 0;
+margin-bottom: 0;
+}
+
+button {
+    cursor: pointer;
+}
+.container {
+    width: 1280px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+/*==========  header  =======*/
+.header {
+
+}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.nav-list {
+    display: flex;
+    gap: 28px;
+    margin-right: 30px;
+}
+
+.nav-link {
+display: block;
+padding-top: 28px;
+    padding-bottom: 28px;
+    font-size: 14px;
+}
+.nav-item:first-child {
+    font-weight: 700;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        color: #bbf330;
+}
+
+.main-btn {
+    border-radius: 30px;
+        border: none;
+        min-width: 98px;
+        height: 32px;
+        background: #bbf330;
+        font-weight: 500;
+            font-size: 13px;
+            line-height: 1.5;
+}
+.main-btn:hover,
+.main-btn:focus {
+    background: #ffe450;
+}
+
+/*==========  hero  =======*/
+.hero {
+    padding-top: 14px;
+    padding-bottom: 69px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-container-wrap {
+    width: 511px;
+}
+
+.hero-title {
+        font-size: 48px;
+        line-height: 1.2;
+        margin-bottom: 28px;
+}
+
+.hero-text {
+        line-height: 1.5;
+        margin-bottom: 40px;
+}
+
+/*==========  about  =======*/
+.about {
+padding-top: 113px;
+padding-bottom: 124px;
+background: #ffe550;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 51px;
+}
+
+.about-container-wrap {
+    width: 573px;
+}
+
+.about-title {
+        font-size: 42px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+}
+
+.about-text {
+    line-height: 1.5;
+    width: 500px;
+    margin-bottom: 40px;
+}
+
+.about-list {
+    display: flex;
+    gap: 67px;
+}
+
+.about-item {
+    width: calc((100% - 67) / 2);
+}
+
+.about-subimg {
+    margin-bottom: 8px;
+}
+
+.about-subtitle {
+            font-size: 18px;
+        line-height: 1.4;
+        margin-bottom: 16px;
+}
+
+.about-subtext {
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 32px;
+}
+
+.about-btn {
+    border: 2px solid #7eb101;
+    background: #ffffff;
+}
+.about-btn:focus,
+.about-btn:active {
+    background-color: #bbf330;
+}
+/*==========  favorites  =======*/
+.favorite {
+    padding-top: 120px;
+    padding-bottom: 101px;
+}
+
+.favorite-container {}
+
+.favorite-titel {
+        font-size: 42px;
+        text-align: center;
+        margin-bottom: 20px;
+}
+
+.favorite-text {
+        text-align: center;
+        margin-bottom: 40px;
+}
+
+.favorite-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.favorite-item {
+    width: calc((100% - 64px) / 3);
+}
+
+/*==========  customers  =======*/
+.customers {
+    padding-top: 140px;
+    padding-bottom: 126px;
+    background-color: #ffe550;
+}
+
+.customers-container {
+    padding-right: 107px;
+}
+
+.customers-title {
+        font-size: 42px;
+        margin-bottom: 20px;
+}
+
+.customers-text {
+    margin-bottom: 32px;
+}
+
+.customers-list {
+    display: flex;
+    gap: 139px;
+}
+
+.customers-item {
+width: calc((100% - 139px) / 2);
+ padding-top: 58px; 
+ padding-bottom: 14px;
+border-radius: 0 30px 30px 30px;
+ background-color:#fefefe; 
+}
+
+.customers-desk {
+    font-weight: 700;
+        font-size: 18px;
+        padding: 0 14px;
+        margin-bottom: 40px;
+}
+.customers-wrap {
+    display: flex;
+    gap: 16px;
+    width: 160px;
+    align-items: center;
+        margin-left: 14px;
+        border-right: 1px solid #7eb101;
+}
+
+.customers-subtitle {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 2px;
+}
+
+.customers-subtext {
+        font-size: 14px;
+        line-height: 1.5;
+}
+
+/*==========  offers  =======*/
+.offers {
+    padding-top: 176px;
+padding-bottom: 201px;
+}
+
+.offers-container {
+    display: flex;
+    align-items: center;
+}
+
+.offers-title {
+        font-size: 42px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+}
+
+.-offer-text {
+        line-height: 1.5;
+         margin-bottom: 24px;
+}
+
+.offers-btn {
+    height: 42px;
+}
