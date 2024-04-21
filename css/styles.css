@@ -274,9 +274,10 @@ padding-bottom: 201px;
         margin-bottom: 20px;
 }
 
-.-offer-text {
+.offer-text {
         line-height: 1.5;
          margin-bottom: 24px;
+         width: 532px;
 }
 
 .offers-btn {
