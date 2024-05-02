@@ -148,11 +148,6 @@ background: #ffe550;
     margin-bottom: 8px;
 }
 
-.about-subtitle {
-            font-size: 18px;
-        line-height: 1.4;
-        margin-bottom: 16px;
-}
 
 .about-subtext {
         font-size: 14px;
@@ -314,7 +309,7 @@ line-height: 1.5;
 margin-bottom: 12px;
 }
 .footer-btn {
-border: 0.85px solid #7eb101;
+border: 2px solid #7eb101;
 border-radius: 30px;
 padding: 10px 20px;
 min-width: 103px;
@@ -324,6 +319,11 @@ font-weight: 500;
     line-height: 1.5;
     margin-bottom: 12px;
     }
+.footer-btn:hover,
+.footer-btn:focus {
+    border: 2px solid #ffe450;
+}
+
 .subscribe-text {
         font-size: 12px;
         }
