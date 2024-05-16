@@ -70,13 +70,22 @@
       <!--===================== About ==============================-->
       <section class="about">
         <div class="container about-container">
-          <img
-            class="about-img"
-            src="./images/apple.png"
-            alt="appple"
-            width="396"
-            height="502"
-          />
+          <div class="about-img-container">
+            <img
+              class="about-img"
+              src="./images/apple.png"
+              alt="appple"
+              width="396"
+              height="502"
+            />
+            <img
+              src="./images/ellipse-shadow.png"
+              alt="shadow"
+              class="about-img-shadow"
+              width="252"
+              height="87"
+            />
+          </div>
           <div class="about-container-wrap">
             <h2 class="about-title">What’s Special About Our Offerings</h2>
             <p class="about-text">
@@ -223,7 +232,17 @@
               Order now and receive 10% off your first meal with Enjoy Your
               Favorite Food From Anywhere.
             </p>
-            <button class="main-btn offers-btn" type="submit">Subscribe</button>
+            <form class="offers-form">
+              <input
+                type="email"
+                class="offers-input"
+                name="offer-email"
+                placeholder="Enter your email"
+              />
+              <button class="main-btn offers-btn" type="submit">
+                Subscribe
+              </button>
+            </form>
           </div>
           <img src="./images/banan.png" alt="banan" width="608" height="266" />
         </div>
@@ -257,7 +276,16 @@
           </nav>
           <div class="subscribe">
             <h3 class="subscribe-title">Subscribe</h3>
-            <button class="footer-btn" type="submit">Subscribe</button>
+            <form class="subscribe-form">
+              <input
+                type="email"
+                class="subscribe-input"
+                name="subscribe-email"
+                placeholder="Enter your email"
+              />
+
+              <button class="footer-btn" type="submit">Subscribe</button>
+            </form>
             <p class="subscribe-text">
               By subscribing you agree to with our Privacy Policy
             </p>
@@ -273,5 +301,73 @@
         </div>
       </div>
     </footer>
+    <!--===================== BACKDDROP ==============================-->
+    <div class="backdrop">
+      <div class="modal">
+        <button class="modal-close-btn" type="button">
+          <svg class="modal-close-icon" width="12" height="12">
+            <use href="./images/icons.svg#close"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Order Form</p>
+        <form class="modal-form">
+          <div class="modal-field">
+            <label for="user-name" class="modal-label">Name</label>
+            <div class="modal-field-wrap">
+              <input
+                class="modal-input"
+                id="user-name"
+                name="user-name"
+                type="text"
+                placeholder="Your name"
+                required
+              />
+              <svg class="modal-icon" width="18" height="18">
+                <use href="./images/icons.svg#user-person"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label for="user-phone" class="modal-label">Phone number</label>
+
+            <input
+              class="modal-input"
+              id="user-phone"
+              name="user-phone"
+              type="tel"
+              placeholder="+38(0_ _) _ _ _   _ _   _ _"
+              required
+            />
+          </div>
+          <div class="modal-field">
+            <label for="user-email" class="modal-label">E-mail</label
+            ><input
+              class="modal-input"
+              id="user-email"
+              name="user-email"
+              type="email"
+              placeholder="example@gmail.com"
+              required
+            />
+          </div>
+          <div class="modal-checkbox">
+            <input
+              type="checkbox"
+              id="user-check"
+              class="modal-checkbox-input visually-hidden"
+            />
+            <label class="modal-checkbox-label" for="user-check"
+              ><span class="checkbox">
+                <svg class="checkbox-icon" width="10" height="10">
+                  <use href="./images/icons.svg#check"></use>
+                </svg> </span
+              >I accept the terms and conditions of the
+              <a href="" class="checkbox-link">Privacy Policy</a></label
+            >
+          </div>
+          <button class="modal-send-btn" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
