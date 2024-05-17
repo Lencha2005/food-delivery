@@ -171,7 +171,16 @@ background: #ffe550;
 .about-item {
     width: calc((100% - 67) / 2);
 }
+.about-item-icon {
+    width: 48px;
+    height: 48px;
+    background-color: #fefefe;
+    fill: #7eb101;
+    border-radius: 100%;
+    padding: 10px;
+    margin-bottom: 8px;
 
+}
 .about-subimg {
     margin-bottom: 8px;
 }
@@ -394,6 +403,7 @@ font-weight: 500;
     font-size: 13px;
     line-height: 1.5;
     margin-bottom: 12px;
+    transition: border-color 250ms ease-in-out;
     }
 .footer-btn:hover,
 .footer-btn:focus {
